@@ -7,6 +7,7 @@ import EventDeal from './components/EventDeal.vue'
 import EventParam from './components/EventParam.vue'
 import EventXiuShiFu from './components/EventXiuShiFu.vue'
 import ArrayChange from './components/ArrayChange.vue'
+import CalculateAttr from './components/CalculateAttr.vue'
 </script>
 
 <template>
@@ -23,7 +24,9 @@ import ArrayChange from './components/ArrayChange.vue'
 <!--  <EventParam />-->
 <!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
 <!--  <EventXiuShiFu />-->
+<!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
+<!--  <ArrayChange />-->
   <p>------------------</p>
-  <ArrayChange />
+  <CalculateAttr />
 </template>
 
