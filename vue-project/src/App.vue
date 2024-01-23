@@ -11,6 +11,7 @@ import CalculateAttr from './components/CalculateAttr.vue'
 import ClassBind from './components/ClassBind.vue'
 import StyleBind from './components/StyleBind.vue'
 import ListenDataChange from './components/ListenDataChange.vue'
+import InputBind from './components/InputBind.vue'
 </script>
 
 <template>
@@ -35,5 +36,7 @@ import ListenDataChange from './components/ListenDataChange.vue'
   <StyleBind />
   <p>------------------</p>
   <ListenDataChange />
+  <p>------------------</p>
+  <InputBind />
 </template>
 
