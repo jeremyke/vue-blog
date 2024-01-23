@@ -4,6 +4,7 @@ import AttrBind from './components/AttrBind.vue'
 import IfShow from './components/IfShow.vue'
 import ListShow from './components/ListShow.vue'
 import EventDeal from './components/EventDeal.vue'
+import EventParam from './components/EventParam.vue'
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import EventDeal from './components/EventDeal.vue'
 <!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
   <EventDeal />
   <p>------------------</p>
+  <EventParam />
 </template>
 
