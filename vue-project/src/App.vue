@@ -8,6 +8,7 @@ import EventParam from './components/EventParam.vue'
 import EventXiuShiFu from './components/EventXiuShiFu.vue'
 import ArrayChange from './components/ArrayChange.vue'
 import CalculateAttr from './components/CalculateAttr.vue'
+import ClassBind from './components/ClassBind.vue'
 </script>
 
 <template>
@@ -26,7 +27,9 @@ import CalculateAttr from './components/CalculateAttr.vue'
 <!--  <EventXiuShiFu />-->
 <!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
 <!--  <ArrayChange />-->
+<!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
+<!--  <CalculateAttr />-->
   <p>------------------</p>
-  <CalculateAttr />
+  <ClassBind />
 </template>
 
