@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import AttrBind from './components/AttrBind.vue'
 import IfShow from './components/IfShow.vue'
+import ListShow from './components/ListShow.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import IfShow from './components/IfShow.vue'
   <AttrBind />
   <p>------------------</p>
   <IfShow />
+  <p>------------------</p>
+  <ListShow />
 </template>
 
