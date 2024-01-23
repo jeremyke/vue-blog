@@ -9,6 +9,7 @@ import EventXiuShiFu from './components/EventXiuShiFu.vue'
 import ArrayChange from './components/ArrayChange.vue'
 import CalculateAttr from './components/CalculateAttr.vue'
 import ClassBind from './components/ClassBind.vue'
+import StyleBind from './components/StyleBind.vue'
 </script>
 
 <template>
@@ -30,6 +31,6 @@ import ClassBind from './components/ClassBind.vue'
 <!--  <p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>-->
 <!--  <CalculateAttr />-->
   <p>------------------</p>
-  <ClassBind />
+  <StyleBind />
 </template>
 
