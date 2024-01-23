@@ -2,7 +2,7 @@
   <h3>列表渲染</h3>
   <p v-for="val of arrTest">{{val}}</p>
   <ul v-for="meta of list">
-    <li :id="meta.id">{{meta.content}}----{{meta.linkStr}}</li>
+    <li :key="meta.id">{{meta.content}}----{{meta.linkStr}}</li>
   </ul>
 
   <p v-for="(val,index) of arrTest">{{index}}---{{val}}</p>
