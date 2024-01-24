@@ -1,6 +1,6 @@
 <template>
   <h3>表单输入与绑定</h3>
-  <input type="text" v-model="msg">
+  <input type="text" v-model.lazy="msg">
   <p>{{msg}}</p>
 
   <input type="checkbox" id="checkbox" v-model="checked">
