@@ -12,6 +12,7 @@ import ClassBind from './components/ClassBind.vue'
 import StyleBind from './components/StyleBind.vue'
 import ListenDataChange from './components/ListenDataChange.vue'
 import InputBind from './components/InputBind.vue'
+import TemplateLink from './components/TemplateLink.vue'
 </script>
 
 <template>
@@ -38,5 +39,7 @@ import InputBind from './components/InputBind.vue'
   <ListenDataChange />
   <p>------------------</p>
   <InputBind />
+  <p>------------------</p>
+  <TemplateLink />
 </template>
 
