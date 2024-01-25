@@ -1,5 +1,5 @@
 <template>
-  <h3>Article</h3>
+  <h3>Item</h3>
 </template>
 
 <style scoped>
@@ -9,7 +9,7 @@ h3{
   text-align: center;
   line-height: 100px;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 10px;
   background: #999;
 }
 </style>

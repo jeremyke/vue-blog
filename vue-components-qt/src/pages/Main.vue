@@ -1,7 +1,9 @@
 <template>
   <div class="main">
     <h3>Main</h3>
-    <article />
+    <Article />
+    <Article />
+    <Article />
   </div>
 </template>
 
