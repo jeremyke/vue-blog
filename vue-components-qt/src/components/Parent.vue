@@ -1,6 +1,6 @@
 <template>
 <h3>Parent</h3>
-  <Child :title="msg" demo="测试"/>
+  <Child :title="msg" demo="测试" :age="age" :arr_test="arr_test" :people="people"/>
 </template>
 
 <script>
@@ -12,6 +12,13 @@ export default {
   data(){
     return {
       msg:"parent-msg",
+      age: 13,
+      arr_test:["aa","bb","cc"],
+      people:{
+        name:"xx",
+        sex:"男",
+        age:23,
+      }
     }
   }
 }
