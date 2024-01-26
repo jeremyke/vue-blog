@@ -1,6 +1,8 @@
 <template>
 <!--  <UseComponent></UseComponent>-->
-  <Component :is="tabComponent"></Component>
+  <keep-alive>
+    <Component :is="tabComponent"></Component>
+  </keep-alive>
   <button @click="changeCP">切换组件</button>
 </template>
 
