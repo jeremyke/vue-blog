@@ -9,8 +9,12 @@
 <script>
 import UseComponent from "@/components/UseComponent.vue";
 import ComponentA from "@/components/ComponentA.vue";
-import ComponentB from "@/components/ComponentB.vue";
-import componentB from "@/components/ComponentB.vue";
+//import ComponentB from "@/components/ComponentB.vue";
+import {defineAsyncComponent} from "vue";
+const ComponentB = defineAsyncComponent(() =>
+  //异步加载组件
+  import("./components/ComponentB.vue")
+);
 
 export default {
   name: "App",
